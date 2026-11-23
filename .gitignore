@@ -1,0 +1,24 @@
+# ---- Data: never commit ---------------------------------------------------
+*.csv
+*.ods
+*.xls
+*.xlsx
+*.parquet
+*.dat
+data/
+# derived numeric outputs (forecasts, CV predictions, results.json)
+outputs/
+
+# ---- Python / editors ------------------------------------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode/
+.idea/
+
+# ---- Generated report: contains figures/values derived from the private data ----
+/REPORT.md
+/report/
+# (examples/ holds a report built from synthetic data and IS committed)
